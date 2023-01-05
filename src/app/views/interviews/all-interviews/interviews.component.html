@@ -1,0 +1,94 @@
+<div class="fade-in">
+    <c-card class="mb-4">
+        <c-card-header>
+            Interviews
+        </c-card-header>
+        <c-card-body>
+
+
+
+
+
+            <div class="table-responsive">
+                <div class="table-wrapper">
+                    <div class="table-title">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h2>All <b>Interviews</b></h2>
+                            </div>
+                            <div class="col-sm-6">
+                                <a routerLink="/interviews/add-interview" class="btn btn-success" data-toggle="modal">
+                                    <i class="fa fa-plus"></i>
+                                    <span class="font-size-12">Add New Record</span>
+                                </a>
+                                <!-- <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal">
+                                    <i class="fa fa-trash"></i>
+                                    <span class="font-size-12">Delete</span>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <!-- <th>
+                                    <span class="custom-checkbox">
+                                        <input type="checkbox" id="selectAll">
+                                        <label for="selectAll"></label>
+                                    </span>
+                                </th> -->
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Address</th>
+                                <th>Phone</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <!-- <td>
+                                    <span class="custom-checkbox">
+                                        <input type="checkbox" id="checkbox5" name="options[]" value="1">
+                                        <label for="checkbox5"></label>
+                                    </span>
+                                </td> -->
+                                <td>Martin Blank</td>
+                                <td>martinblank@mail.com</td>
+                                <td>Via Monte Bianco 34, Turin, Italy</td>
+                                <td>(480) 631-2097</td>
+                                <td>
+
+
+
+                                    <a routerLink="/interviews/view-interview" class="edit" style="color: blue;">
+                                        <i class="fa fa-eye"></i>
+
+                                    </a>
+                                    <a routerLink="/interviews/edit-interview" class="edit" style="color: black;">
+                                        <i class="fa fa-pencil"></i></a>
+                                    <a class="edit" style="color: red;">
+                                        <i class="fa fa-trash"></i>
+
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="clearfix">
+                        <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
+                        <ul class="pagination">
+                            <li class="page-item disabled"><a href="#">Previous</a></li>
+                            <li class="page-item"><a href="#" class="page-link">1</a></li>
+                            <li class="page-item"><a href="#" class="page-link">2</a></li>
+                            <li class="page-item active"><a href="#" class="page-link">3</a></li>
+                            <li class="page-item"><a href="#" class="page-link">4</a></li>
+                            <li class="page-item"><a href="#" class="page-link">5</a></li>
+                            <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </c-card-body>
+    </c-card>
+</div>
